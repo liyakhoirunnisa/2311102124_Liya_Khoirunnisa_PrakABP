@@ -1,0 +1,36 @@
+.navbar a {
+  color: #ffffff !important;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #D3E2EF;
+}
+
+#projects {
+  background-color: #D3E2EF;
+}
+
+#projects .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#carouselExampleCaptions {
+    max-width: 800px;   
+    margin: 0 auto;     
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+.carousel-item {
+    background-color: #f8f9fa; 
+}
+
+footer {
+    background-color: #D3E2EF;
+}
