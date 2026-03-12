@@ -1,0 +1,41 @@
+<!-- Liya Koirunnisa - 2311102124 - IF1103 -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>jQuery Efek Hide/Show - Liya Khoirunnisa</title>
+
+    <!-- Import jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="efekHide.css">
+
+    <script>
+      $(document).ready(function() {
+
+        // tombol sembunyikan paragraf
+        $("#hide").click(function() {
+          $("p").slideUp("slow");
+        });
+
+        // tombol tampilkan paragraf
+        $("#show").click(function() {
+          $("p").slideDown("slow");
+        });
+
+      });
+    </script>
+  </head>
+
+  <body>
+
+    <!-- paragraf yang akan diberi efek -->
+    <p>Hai! Coba klik tombol di bawah. Aku akan menghilang dan muncul.</p>
+
+    <!-- tombol aksi -->
+    <button id="hide">Sembunyikan</button>
+    <button id="show">Tampilkan</button>
+
+  </body>
+</html>

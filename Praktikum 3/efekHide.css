@@ -1,0 +1,25 @@
+/* Liya Koirunnisa - 2311102124 - IF1103 */
+
+/* paragraf */
+p {
+  background-color: #f7e797;
+  padding: 15px;
+  border: 1px solid #f7e797;
+  border-radius: 5px;
+  font-family: sans-serif;
+  max-width: 500px;
+}
+
+/* tombol */
+button {
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+/* efek hover tombol */
+button:hover {
+  background-color: #e0e0e0;
+}

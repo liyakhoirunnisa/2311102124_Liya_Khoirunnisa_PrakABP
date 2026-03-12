@@ -1,0 +1,47 @@
+<!-- Liya Koirunnisa - 2311102124 - IF1103 -->
+
+<!doctype html>
+<html>
+  <head>
+    <!-- import jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+      // jalankan saat halaman siap
+      $(document).ready(function() {
+
+        // saat tombol diklik
+        $("button").click(function() {
+
+          // animasi tampil/sembunyi div
+          $("div").animate({
+            height: 'toggle'
+          });
+
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+
+    <!-- teks instruksi -->
+    <p>Klik tombol beberapa kali untuk menampilkan atau menyembunyikan animasi.</p>
+
+    <!-- tombol animasi -->
+    <button>Mulai Animasi</button>
+
+    <!-- teks penjelasan -->
+    <p>
+      Secara default, semua elemen HTML memiliki posisi statis dan tidak dapat dipindahkan.
+      Untuk memanipulasi posisi elemen, ingat untuk terlebih dahulu mengatur
+      properti CSS position menjadi relative, fixed, atau absolute.
+    </p>
+
+    <!-- kotak yang dianimasikan -->
+    <div
+      style="background:#98bf21; height:100px; width:100px; position:absolute;"
+    ></div>
+
+  </body>
+</html>
